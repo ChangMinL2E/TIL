@@ -1,0 +1,23 @@
+repository 란?
+특정 디렉토리를 버전 관리하는 저장소
+
+git init : 로컬 저장소를 생성
+git 디렉토리에 버전 관리에 필요한 모든 것이 들어 있다.
+
+commit 한다 <-> 특정 버전으로 남긴다.
+
+Working directory : 내가 작업하고 있는 실제 디렉토리
+Staging Area : commit으로 남기고 싶은, 특정 버전으로 관리하고 싶은 파일이 있는 곳
+Repository : commit들이 저장되는 곳
+
+git init : 로컬 저장소를 생성
+git add . or file_name : commit할 파일을 추가
+git commit -m "commit_message" : 추가할 파일을 업데이트할 별명
+git remote add origin main 
+origin 은 repository와 remote의 통로?
+git push -u origin main : commit해준다.
+
+clone 은 init 과 remote add origin remote_repo를 합쳐놓은것.
+
+git status 는 git repository의 상태를 확인
+git log: history를 본다.
